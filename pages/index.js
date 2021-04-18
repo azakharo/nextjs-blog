@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,6 +21,13 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+
+        <Image
+          src="/images/avatar.jpg" // Route of the image file
+          height={200} // Desired size with correct aspect ratio
+          width={200} // Desired size with correct aspect ratio
+          alt="Zakhar"
+        />
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
