@@ -11,7 +11,7 @@ export async function getStaticProps() {
       allPostsData
     }
   }
-};
+}
 
 export default function Home({allPostsData}) {
   return (
